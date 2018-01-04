@@ -3,10 +3,10 @@
 
 @import "reset";
 
+//variables, mixins, etc. should be on top, before anything that uses it.
 
-$color: blue;
-
-.bluebox{
-  padding: 20px;
-  background: $color;
-}
+@import "variables";
+@import "header";
+@import "content";
+@import "footer";
+@import "other-content"
